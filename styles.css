@@ -412,6 +412,35 @@ details p{margin-top:var(--s-100);font-size:14px;line-height:1.7;color:var(--ink
 .download-card.muted .dl-cta{color:var(--ink-2)}
 .download-note{margin-top:var(--s-300);font-size:12px;line-height:1.6;color:var(--ink-3)}
 
+/* four business lines on the homepage + mini program gallery */
+.trio{grid-template-columns:repeat(4,minmax(0,1fr))}
+.cards4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.shots3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s-300)}
+
+@media (max-width:1100px){
+  .trio,.cards4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .shots3{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:900px){
+  .shots3{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:700px){
+  .shots3{
+    display:flex;
+    gap:var(--s-200);
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    margin:0 calc(-1 * var(--s-300));
+    padding:0 var(--s-300) var(--s-75);
+  }
+  .shots3 .shot-card{flex:0 0 78%;scroll-snap-align:start}
+  .shots3 .shot-card img{border-radius:20px}
+}
+@media (max-width:600px){
+  .trio,.cards4{grid-template-columns:minmax(0,1fr)}
+}
+
 @media (max-width:1100px){.shots4{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:900px){
   .hero-split .hero-split-grid{grid-template-columns:minmax(0,1fr);gap:var(--s-600)}
