@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>研序 Yanxu — 科研工作站 · scholarlylife</title>
-<meta name="description" content="研序把科研日志、文献、课题、待办、日程和专注时间放在一起。iPhone 原生 App，无需注册，本地优先。">
+<meta name="description" content="研序把科研日志、文献、日报、课题、待办、日程和专注时间放在一起。iPhone 原生 App，无需注册，本地优先。">
+<meta property="og:title" content="研序 Yanxu — 把科研和生活，排成序">
+<meta property="og:description" content="科研日志、文献日报、课题、日程、习惯，一个 App。TestFlight 公测中。">
+<meta property="og:image" content="https://brian-jiangz.github.io/scholarlylife/assets/yanxu/today.png">
 <link rel="icon" href="../assets/yanxu-icon.png">
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -23,21 +26,26 @@
   </div>
 </nav>
 
-<header class="page-hero">
-  <div class="wrap">
-    <span class="eyebrow">研序 Yanxu · 科研工作站</span>
-    <h1 class="heading-1">把科研和生活，<br>排成序</h1>
-    <p class="lede">科研日志、文献、课题、待办、日程和专注时间，放在一个地方。研究不是一堆散落的笔记，而是「我在做什么」和「我接下来要做什么」。</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="https://testflight.apple.com/join/vVqqX2XB" target="_blank" rel="noopener">
-        TestFlight 公测
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-      </a>
-      <a class="btn btn-ghost" href="https://brian-jiangz.github.io/yanxu-support/" target="_blank" rel="noopener">获取支持</a>
+<header class="page-hero hero-split">
+  <div class="wrap hero-split-grid">
+    <div>
+      <span class="eyebrow">研序 Yanxu · 科研工作站</span>
+      <h1 class="heading-1">把科研和生活，<br>排成序</h1>
+      <p class="lede">科研日志、文献日报、课题、待办、日程和专注时间，放在一个地方。研究不是一堆散落的笔记，而是「我在做什么」和「我接下来要做什么」。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://testflight.apple.com/join/vVqqX2XB" target="_blank" rel="noopener">
+          TestFlight 公测
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="https://brian-jiangz.github.io/yanxu-support/" target="_blank" rel="noopener">获取支持</a>
+      </div>
+      <div class="tags" style="margin-top:var(--s-300)">
+        <span class="tag">iPhone</span><span class="tag">iOS 18+</span>
+        <span class="tag">无需注册</span><span class="tag">本地优先</span>
+      </div>
     </div>
-    <div class="tags" style="margin-top:var(--s-300)">
-      <span class="tag">iPhone</span><span class="tag">iOS 18+</span>
-      <span class="tag">无需注册</span><span class="tag">本地优先</span>
+    <div class="device reveal">
+      <img src="../assets/yanxu/today.png" alt="研序首页：今日日程、待办和习惯打卡">
     </div>
   </div>
 </header>
@@ -45,32 +53,60 @@
 <section style="padding-top:0">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="kicker">它解决什么</div>
-      <h2 class="heading-2">实验记进日志，文献挂到课题</h2>
-      <p>研究生的日常被切成很多块：实验记录在纸上，文献在 PDF 里，待办在备忘录，专注时间靠感觉。研序把这四件事放回同一个界面。</p>
+      <div class="kicker">长什么样</div>
+      <h2 class="heading-2">四个页面，覆盖一天的研究</h2>
+      <p>下面是 App 里的真实界面，用示例数据截的。从早上记一条实验记录，到晚上看今天专注了多久。</p>
     </div>
 
-    <div class="feature-cards4">
-      <article class="fcard reveal">
-        <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg></div>
-        <h4>科研日志</h4>
-        <p>按课题归类实验记录，标签和搜索让三个月前的记录还能找回来。日志可以直接关联到课题，不用另建一份索引。</p>
-      </article>
-      <article class="fcard reveal">
-        <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2Z"/><path d="M8 7h7M8 11h5"/></svg></div>
-        <h4>文献与课题</h4>
-        <p>读到哪里、想到什么、还差什么，跟课题放在一起。按 DOI 或 Zotero 补充资料，不用在几个 App 之间来回贴链接。</p>
-      </article>
-      <article class="fcard reveal">
-        <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
-        <h4>日程与待办</h4>
-        <p>重复日程、本机提醒。组会、审稿、仪器预约不会漏，也不需要为了一个提醒去注册一个账号。</p>
-      </article>
-      <article class="fcard reveal">
-        <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></div>
-        <h4>专注时间</h4>
-        <p>番茄钟记录专注时长，和日志放在一起。回看一周，能看出时间到底花在了哪个课题上。</p>
-      </article>
+    <div class="shots4">
+      <figure class="shot-card reveal">
+        <img src="../assets/yanxu/logs.png" alt="科研日志列表">
+        <figcaption>
+          <h3>科研日志</h3>
+          <p>按天分组，标签和课题挂在同一条记录上。搜标题、内容或标签都能找回来。</p>
+        </figcaption>
+      </figure>
+      <figure class="shot-card reveal">
+        <img src="../assets/yanxu/projects.png" alt="课题列表与进度">
+        <figcaption>
+          <h3>文献与课题</h3>
+          <p>课题带着任务进度和里程碑，文献读完直接挂进来，不用另建一份索引。</p>
+        </figcaption>
+      </figure>
+      <figure class="shot-card reveal">
+        <img src="../assets/yanxu/reminders.png" alt="提醒事项：逾期、今天、近七天">
+        <figcaption>
+          <h3>日程与待办</h3>
+          <p>逾期、今天、近七天自动分组，紧急和重要标在右边。和系统提醒双向同步。</p>
+        </figcaption>
+      </figure>
+      <figure class="shot-card reveal">
+        <img src="../assets/yanxu/habits.png" alt="习惯打卡：读文献、运动、早起">
+        <figcaption>
+          <h3>习惯与生活</h3>
+          <p>读文献、运动、早起，连续天数看得见。科研之外的那部分，也值得被记录。</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="digest-band reveal">
+      <div class="device small">
+        <img src="../assets/yanxu/digest.png" alt="研序日报：每日精选文献">
+      </div>
+      <div>
+        <div class="kicker">日报</div>
+        <h3 class="heading-3">每天几篇，刚好读完</h3>
+        <p class="body-3" style="margin-top:var(--s-200);color:var(--ink-2)">按你关注的领域挑文献，标题、期刊、作者、第一单位排在一起。看到有用的，一键收进课题，第二天的日报会避开已经读过的。</p>
+        <div class="pill-list" style="margin-top:var(--s-300)">
+          <span class="tag">按领域筛选</span>
+          <span class="tag">一键入库</span>
+          <span class="tag">去重</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -96,7 +132,7 @@
     </div>
     <div class="steps4">
       <div class="step reveal"><h3>装上</h3><p>TestFlight 公测，免费。不需要邮箱、手机号或任何注册步骤。</p></div>
-      <div class="step reveal"><h3>建课题</h3><p>把手上在做的研究建成课题，之后所有日志和文献都往这里挂。</p></div>
+      <div class="step reveal"><h3>建课题</h3><p>把手上在做的研究建成课题，之后所有日志、文献和待办都往这里挂。</p></div>
       <div class="step reveal"><h3>记一条</h3><p>今天做了什么、卡在哪、下一步试什么。三十秒记完，比补实验记录本容易。</p></div>
     </div>
     <div class="reveal" style="margin-top:var(--s-600)">

@@ -4,8 +4,9 @@
 > 参考：ATIV Software（EventPilot，B2B 会议 App）、Adobe Dreamweaver（自助产品页）
 
 **当前进度**：P0 已上线（`/`、`/yanxu/`、`/conference/`、`/studio/`）。
-仍缺：研序真实截图（现在只有文字，未有 App Store 公开页可取图）、
-`/updates`、`/cases`、场景子页与 process 页。
+研序真实截图已补齐（模拟器示例数据，`assets/yanxu/`，可用
+`scripts/capture-yanxu.sh` 重新采集）。
+仍缺：`/updates`、`/cases`、场景子页与 process 页。
 
 ---
 
