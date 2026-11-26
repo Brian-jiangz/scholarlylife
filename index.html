@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>scholarlylife — 研序科研工作站 · 学术会议 App</title>
-<meta name="description" content="我们做两件事：给研究者的科研工作站「研序」，给学术会议的参会 App。研序把科研日志、文献、课题、待办、日程和专注放在一起。">
+<title>scholarlylife — 科研工具与科学示意网站</title>
+<meta name="description" content="我们做三件事：研序科研工作站、学术会议 App、可交互的科学示意网站。让科研和生活都排成序。">
 <meta property="og:title" content="scholarlylife — 让科研和生活，都排成序">
-<meta property="og:description" content="研序科研工作站，以及为学术会议定制的参会 App。">
+<meta property="og:description" content="研序科研工作站、学术会议 App、可交互的科学示意网站。">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/yanxu-icon.png">
 <link rel="stylesheet" href="styles.css">
@@ -15,17 +15,17 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a class="brand" href="#top">
+    <a class="brand" href="./">
       <img src="assets/yanxu-icon.png" alt="">
       <b>scholarlylife</b>
     </a>
     <div class="nav-links">
-      <a href="#yanxu">研序</a>
-      <a href="#conference">会议 App</a>
-      <a href="#about">关于</a>
+      <a href="yanxu/">研序</a>
+      <a href="conference/">会议 App</a>
+      <a href="studio/">示意网站</a>
       <a href="#contact">联系</a>
     </div>
-    <a class="nav-cta" href="#contact">写信给我们</a>
+    <a class="nav-cta" href="studio/">聊聊你的想法</a>
   </div>
 </nav>
 
@@ -33,135 +33,89 @@
   <div class="wrap">
     <span class="eyebrow">scholarlylife · 科研工具</span>
     <h1 class="heading-1">让科研和生活，<br>都排成序</h1>
-    <p class="lede">我们做两件事：给研究者的科研工作站「研序」，给学术会议的参会 App。</p>
+    <p class="lede">我们做三件事：一个给自己用的科研工作站，一个给学术会议的参会 App，以及把复杂科学过程做成可以动手试的网站。</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="#yanxu">看研序</a>
-      <a class="btn btn-ghost" href="#conference">看会议 App</a>
+      <a class="btn btn-primary" href="yanxu/">试用研序</a>
+      <a class="btn btn-ghost" href="studio/">看示意网站</a>
     </div>
   </div>
 </header>
 
-<div class="wrap duo">
-  <div class="duo-card reveal">
-    <img src="assets/yanxu-icon.png" alt="">
-    <div class="duo-text">
-      <a class="duo-title" href="#yanxu"><h3>研序 Yanxu</h3></a>
-      <p>科研工作站。日志、文献、课题、待办、日程和专注，放在一个地方。</p></div>
-    <a class="duo-beta" href="https://testflight.apple.com/join/vVqqX2XB" target="_blank" rel="noopener">
-        TestFlight 公测
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-      </a>
-  </div>
-  <div class="duo-card reveal">
-    <img src="assets/xmas-icon.png" alt="">
-    <div class="duo-text">
-      <a class="duo-title" href="#conference"><h3>会议 App</h3></a>
-      <p>学术会议的官方参会助手。议程、日程、报告人，离线装进手机。</p></div>
-    <a class="duo-beta" href="https://testflight.apple.com/join/Vf8QCPkp" target="_blank" rel="noopener">
-        TestFlight 公测
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-      </a>
+<div class="wrap trio">
+  <a class="trio-card reveal" href="yanxu/">
+    <div class="trio-top">
+      <img src="assets/yanxu-icon.png" alt="">
+      <span class="trio-tag">公测中</span>
+    </div>
+    <h3>研序 Yanxu</h3>
+    <p>科研工作站。把科研日志、文献、课题、待办、日程和专注时间放在一起。</p>
+    <div class="trio-foot"><span>iOS · 无需注册</span><span class="arrow">→</span></div>
+  </a>
+
+  <a class="trio-card reveal" href="conference/">
+    <div class="trio-top">
+      <img src="assets/xmas-icon.png" alt="">
+      <span class="trio-tag">案例：XMAS 2027</span>
+    </div>
+    <h3>会议 App</h3>
+    <p>给学术会议做的官方参会助手。议程、日程、报告人，离线装进手机。</p>
+    <div class="trio-foot"><span>iOS · Android · HarmonyOS</span><span class="arrow">→</span></div>
+  </a>
+
+  <a class="trio-card reveal" href="studio/">
+    <div class="trio-top">
+      <div class="trio-glyph">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.6 3.8 9S14.5 18.5 12 21c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3Z"/></svg>
+      </div>
+      <span class="trio-tag">定制</span>
+    </div>
+    <h3>示意网站</h3>
+    <p>把你的研究做成一个可以动手试的网站。教具、展示、科普，从机制到上线。</p>
+    <div class="trio-foot"><span>案例：台风探秘</span><span class="arrow">→</span></div>
+  </a>
+</div>
+
+<div class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat reveal"><b>3</b><span>条业务线</span></div>
+    <div class="stat reveal"><b>1,630</b><span>场报告装进一个 App</span></div>
+    <div class="stat reveal"><b>1,765</b><span>位报告人与召集人</span></div>
+    <div class="stat reveal"><b>0</b><span>个需要注册的账号</span></div>
   </div>
 </div>
 
-<section id="yanxu">
+<section id="work">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="kicker">产品一 · 科研工作站</div>
-      <h2 class="heading-2">研序 Yanxu</h2>
-      <p>把科研日志、文献、课题、待办、日程和专注时间放在一起，帮你持续记录研究进展，安排下一步。iPhone 上的原生 App，iOS 18 起，不需要注册账号。</p>
+      <div class="kicker">最近在做</div>
+      <h2 class="heading-2">两个能直接看的例子</h2>
+      <p>一个把整场会议装进手机，一个把台风实验搬进浏览器。都不是 PPT，是可以点开玩的。</p>
     </div>
 
-    <div class="split">
-      <div class="split-copy reveal">
-        <h3>记录研究，也安排生活</h3>
-        <p>研究不是一堆散落的笔记和待办。研序把「我在做什么」和「我接下来要做什么」放在同一个界面里：实验记进日志，文献挂到课题，待办排进日程，专注时间用番茄钟记下来。</p>
-        <ul class="feat-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>科研日志：分类、标签、搜索实验记录，并与课题关联</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>文献与课题：整理阅读状态、笔记和里程碑，按 DOI 或 Zotero 补充资料</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>日程与专注：待办、重复日程、本机提醒，番茄钟记录专注时间</span></li>
-        </ul>
-        <div class="tags">
-          <span class="tag">iPhone</span>
-          <span class="tag">iOS 18+</span>
-          <span class="tag">无需注册</span>
-          <span class="tag">本地优先</span>
-        </div>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://testflight.apple.com/join/vVqqX2XB" target="_blank" rel="noopener">
-            TestFlight 公测
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a>
-          <a class="btn btn-ghost" href="mailto:jiangzheng0332@163.com?subject=研序%20Yanxu">获取支持</a>
-        </div>
+    <div class="case-teaser reveal">
+      <div class="case-teaser-copy">
+        <span class="kicker">会议 App · 案例</span>
+        <h3>XMAS-MEL 2027</h3>
+        <p>第八届厦门海洋环境科学论坛的官方参会助手。231 个议程单元、1,630 场报告与海报，全部离线可用，参会者不需要账号。</p>
+        <a class="text-link" href="conference/">看会议 App <span>→</span></a>
       </div>
-
-      <div class="feature-cards reveal">
-        <article class="fcard">
-          <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg></div>
-          <h4>科研日志</h4>
-          <p>按课题归类实验记录，标签和搜索让三个月前的记录还能找回来。</p>
-        </article>
-        <article class="fcard">
-          <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2Z"/><path d="M8 7h7M8 11h5"/></svg></div>
-          <h4>文献与课题</h4>
-          <p>读到哪里、想到什么、还差什么，跟课题放在一起，不散落在 PDF 里。</p>
-        </article>
-        <article class="fcard">
-          <div class="card-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></div>
-          <h4>日程与专注</h4>
-          <p>重复日程、本机提醒、番茄钟。把「今天做什么」变成一件看得见的事。</p>
-        </article>
+      <div class="case-teaser-shots">
+        <img src="assets/xmas-01-home.png" alt="XMAS 2027 App 首页">
+        <img src="assets/xmas-02-program.png" alt="议程列表">
       </div>
     </div>
 
-    <div class="privacy-strip reveal">
-      <div>
-        <h4>记录默认保存在你的设备上</h4>
-        <p>研序无需注册账号，也没有接入广告、追踪或分析 SDK。只有你主动使用 DOI、Zotero 或外部日报等功能时，App 才会连接相应服务。</p>
+    <div class="case-teaser reveal">
+      <div class="case-teaser-copy">
+        <span class="kicker">示意网站 · 案例</span>
+        <h3>台风探秘 · 地球实验室</h3>
+        <p>在浏览器里跑台风实验：选海面起点、摆副高、调环境场，看路径怎么走。用真实天气场算杜苏芮的案例，不向缺测未来外推。</p>
+        <a class="text-link" href="https://brian-jiangz.github.io/typhoon-explorer/" target="_blank" rel="noopener">直接打开 <span>↗</span></a>
       </div>
-      <a class="btn btn-ghost" href="https://brian-jiangz.github.io/yanxu-support/privacy/" target="_blank" rel="noopener">阅读隐私政策</a>
-    </div>
-  </div>
-</section>
-
-<section id="conference">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="kicker">产品二 · 学术会议</div>
-      <h2 class="heading-2">会议 App</h2>
-      <p>给学术会议做的官方参会助手：议程、日程、报告人、会场，离线装进一台手机。参会者不用注册，主办方不用维护服务器。</p>
-    </div>
-
-    <div class="shot-grid four reveal">
-      <figure><img src="assets/xmas-01-home.png" alt="会议 App 首页"></figure>
-      <figure><img src="assets/xmas-02-program.png" alt="议程列表"></figure>
-      <figure><img src="assets/xmas-03-session.png" alt="场次详情"></figure>
-      <figure><img src="assets/xmas-04-contacts.png" alt="报告人目录"></figure>
-    </div>
-
-    <div class="split reverse">
-      <div class="split-copy reveal">
-        <h3>以 XMAS-MEL 2027 为例</h3>
-        <p>第八届厦门海洋环境科学论坛的官方会议助手。整场大会的议程、报告人、会场信息全部离线可用，参会者不需要账号，也不会被追踪。</p>
-        <ul class="feat-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>官方议程与全文搜索，覆盖场次、报告、报告人</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>个人日程、冲突提醒、ics 导出</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg><span>多端交付：iOS、Android、HarmonyOS</span></li>
-        </ul>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://testflight.apple.com/join/Vf8QCPkp" target="_blank" rel="noopener">
-            TestFlight 公测
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a>
-          <a class="btn btn-ghost" href="mailto:jiangzheng0332@163.com?subject=会议%20App%20定制">为你的会议定制</a>
-        </div>
-      </div>
-      <div class="case-stats reveal">
-        <div><b>231</b><span>个议程单元</span></div>
-        <div><b>1,630</b><span>场报告与海报</span></div>
-        <div><b>1,765</b><span>位报告人与召集人</span></div>
-        <div><b>0</b><span>个需要注册的账号</span></div>
+      <div class="case-teaser-shots">
+        <a class="case-teaser-wide" href="https://brian-jiangz.github.io/typhoon-explorer/structure.html" target="_blank" rel="noopener">
+          <img src="assets/typhoon-structure.png" alt="台风探秘 · 台风结构页面">
+        </a>
       </div>
     </div>
   </div>
@@ -174,8 +128,8 @@
       <h2 class="heading-2">自己先要用得上</h2>
     </div>
     <div class="reveal">
-      <p>scholarlylife 是一个做科研工具的小团队。起点很简单：自己记不住实验做到哪一步，就写了研序；自己开会找不到下一场在哪，就写了会议 App。</p>
-      <p style="margin-top:var(--s-200)">所以我们不做大而全的平台，只做两件事：让研究者把研究记录下来，让参会的人在现场不慌。</p>
+      <p>scholarlylife 是一个做科研工具的小团队。起点很简单：自己记不住实验做到哪一步，就写了研序；自己开会找不到下一场在哪，就写了会议 App；想讲清楚一个机制，就做了台风探秘。</p>
+      <p style="margin-top:var(--s-200)">所以我们不做大而全的平台，只做三件事：让研究者把研究记录下来，让参会的人在现场不慌，让复杂的科学过程能被动手试一遍。</p>
       <p style="margin-top:var(--s-200)">学术那边的东西，放在 <a href="https://brian-jiangz.github.io/" target="_blank" rel="noopener">这里</a>。</p>
     </div>
   </div>
@@ -185,7 +139,7 @@
   <div class="wrap inner reveal">
     <div class="kicker">联系</div>
     <h2 class="heading-2">想聊聊，或者一起做点东西</h2>
-    <p>会议定制、产品建议、合作，都可以直接写信。一般一两天内会回。</p>
+    <p>会议定制、示意网站、产品建议、合作，都可以直接写信。一般一两天内会回。</p>
     <a class="btn btn-primary" href="mailto:jiangzheng0332@163.com">
       写信给我们
       <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
@@ -198,16 +152,16 @@
     <div class="foot-grid">
       <div>
         <div class="foot-brand"><img src="assets/yanxu-icon.png" alt=""><b>scholarlylife</b></div>
-        <p>做科研工作站和学术会议 App。</p>
+        <p>做科研工作站、学术会议 App，和可以动手试的科学示意网站。</p>
       </div>
       <div class="foot-links">
         <div>
-          <h4>产品</h4>
+          <h4>产品与服务</h4>
           <ul>
-            <li><a href="#yanxu">研序 Yanxu</a></li>
-            <li><a href="https://testflight.apple.com/join/vVqqX2XB" target="_blank" rel="noopener">研序 TestFlight</a></li>
-            <li><a href="#conference">会议 App</a></li>
-            <li><a href="https://testflight.apple.com/join/Vf8QCPkp" target="_blank" rel="noopener">会议 App TestFlight</a></li>
+            <li><a href="yanxu/">研序 Yanxu</a></li>
+            <li><a href="yanxu/">研序 TestFlight</a></li>
+            <li><a href="conference/">会议 App</a></li>
+            <li><a href="studio/">示意网站</a></li>
           </ul>
         </div>
         <div>
