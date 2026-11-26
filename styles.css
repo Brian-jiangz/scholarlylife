@@ -200,3 +200,20 @@ footer p{font-size:14px;color:var(--ink-3);line-height:1.6;max-width:38ch}
 .case-stats span{display:block;margin-top:var(--s-75);font-size:14px;color:var(--ink-3)}
 
 #conference .shot-grid.four{margin-bottom:var(--s-700)}
+
+/* duo cards with beta pills */
+.duo-card{align-items:flex-start}
+.duo-title h3{transition:color .3s var(--ease)}
+.duo-title:hover h3{color:var(--blue)}
+.duo-beta{display:inline-flex;align-items:center;gap:6px;margin-top:var(--s-100);
+  font-size:12px;font-weight:600;color:var(--blue);
+  background:var(--blue-soft);border-radius:var(--r-pill);padding:var(--s-50) var(--s-100);
+  transition:background .3s var(--ease),color .3s var(--ease)}
+.duo-beta:hover{background:var(--blue);color:#fff}
+.duo-beta svg{width:12px;height:12px}
+.cta-row{display:flex;gap:var(--s-200);flex-wrap:wrap;margin-top:var(--s-300)}
+
+.duo-card{align-items:center}
+.duo-text{flex:1}
+.duo-beta{margin-top:0;flex:none}
+@media (max-width:760px){.duo-card{flex-wrap:wrap}.duo-beta{margin-left:72px}}
