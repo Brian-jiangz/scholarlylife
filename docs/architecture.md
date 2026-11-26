@@ -3,6 +3,10 @@
 > 版本 v1 · 2026-11-26
 > 参考：ATIV Software（EventPilot，B2B 会议 App）、Adobe Dreamweaver（自助产品页）
 
+**当前进度**：P0 已上线（`/`、`/yanxu/`、`/conference/`、`/studio/`）。
+仍缺：研序真实截图（现在只有文字，未有 App Store 公开页可取图）、
+`/updates`、`/cases`、场景子页与 process 页。
+
 ---
 
 ## 1. 定位

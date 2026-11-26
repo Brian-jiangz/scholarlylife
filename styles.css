@@ -371,3 +371,4 @@ details p{margin-top:var(--s-100);font-size:14px;line-height:1.7;color:var(--ink
 @media (max-width:600px){.feature-cards4{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:600px){.case-stats-inline{grid-template-columns:minmax(0,1fr)}}
 @media (min-width:901px){.case-teaser{grid-template-columns:.86fr 1.14fr}}
+.trio-top img.mark-wide{background:#fff;border:1px solid var(--line);padding:6px;object-fit:contain}
